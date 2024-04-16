@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    width:100px;
+}
+ul{
+    display:flex;
+    position: relative;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: #F0F2CA;
+}
+
+li{
+    float:left;
+}
+li a {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+    padding-bottom: 43px;
+    padding-inline: 45px;
+    text-decoration: none;
+    font-size: LARGE;
+    color:#182801;
+  }
+  .bdys{
+  
+    position: relative;
+    background-repeat: no-repeat;
+    margin-bottom: 35px;
+  }
+  .intro{
+    align-self: center;
+    position: relative;
+    margin: auto;
+  }
+.inrod{
+    position: relative;
+    align-items:center;
+    height: 315px;
+    line-height: 2em;
+    margin: auto;
+    width:50%;
+    overflow: hidden;
+    font-size: 20px;
+    color:#182801
+}
+li a:hover{
+    text-decoration:dotted;
+    position:relative;
+    background-color: rgb(239, 245, 245);
+}  
+
+li a:active{
+    background-color: rgb(239, 245, 245);
+   
+}
+footer{
+    background-color: #F0F2CA;
+    justify-content: space-around;
+}
+table{
+    justify-content: space-around;
+    padding:30px;
+}
+.fr a{
+    text-decoration: none;
+    color: #182801;
+}
+.fr a:hover{
+    text-decoration: underline;
+}
+.foo{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+}
+.foolo{
+    width: 400px ;
+    position:relative
+}
+.social li ul{
+    display: contents;
+}
+.lin{
+    margin: auto;
+    width:85%;
+    border-top: 1px solid #182801;
+}
+.txt{
+    color: #182801;
+    padding-top: 7px;
+    padding-bottom:20px;
+}
